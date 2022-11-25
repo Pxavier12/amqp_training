@@ -8,9 +8,7 @@ import java.util.Scanner;
 
 @SpringBootApplication
 public class Launcher {
-
     public static void main(String[] args) {
-
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(Launcher.class);
         RabbitTemplate sender = app.getBean(RabbitTemplate.class);
         String message="";

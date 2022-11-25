@@ -28,9 +28,6 @@
         <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
     </properties>
 
-    <dependencies>
-
-    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -92,4 +89,3 @@
         </plugins>
     </build>
 </project>
-
